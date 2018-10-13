@@ -1,0 +1,15 @@
+package praveen;
+import java.util.Scanner;
+public class nnn {
+	public static void main(String []args) {
+		Scanner Scan=new Scanner(System.in);
+		System.out.println("Enter the value of n :");
+		int n=Scan.nextInt();
+		int i=1;
+		while(i<=5) {
+			System.out.print(n*i+" ");
+			i++;
+		}
+	}
+
+}
