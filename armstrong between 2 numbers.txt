@@ -1,0 +1,21 @@
+package praveen;
+import java.util.Scanner;
+public class aaa {
+	public static void main(String[]args) {
+	Scanner scan=new Scanner(System.in);
+	System.out.println("Enter the two numbers");
+	int n=scan.nextInt();
+	int m=scan.nextInt();
+	int sum=0,temp;
+	for(int i=n;i<=m;i++) {
+		int k=i;
+		while(k!=0) {
+		temp=k%10;
+		sum=sum+(temp*temp*temp);
+		k=k/10;
+		}if(sum==i) {
+			System.out.print(i+" ");
+		}sum=0;
+	}
+}
+}
